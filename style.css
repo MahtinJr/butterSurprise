@@ -11,9 +11,12 @@
 	height: 100%;
 }
 
+#navbarToggler {
+  justify-content: flex-end;
+}
+
 .nav-link {
 	color: #fff;
-	display: flex;
 	/*font-size: 30px;*/
 }
 
@@ -42,14 +45,12 @@ h1 {
 	flex-flow: row wrap;
 	align-items: stretch;
 	position: relative;
-	padding: 40px 0px 50px;
 	align-items: center;
 }
 
 #footer {
 	-webkit-justify-content: center;
 	justify-content: center;
-	padding-top: 50px
 }
 
 .col {
@@ -61,4 +62,9 @@ h1 {
 
 .specific {
 	width: 100%;
+}
+
+.noPad {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
